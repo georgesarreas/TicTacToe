@@ -121,3 +121,36 @@ body {
 .cell:nth-child(7){
     border-bottom:none;
 }
+
+.endGame{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .9);
+    display: none;
+    align-items: center;
+    justify-content: center ;
+    color: white;
+    font-size: 5rem;
+    flex-direction: column;
+} 
+
+.endGame button {
+    font-size: 3rem;
+    background-color: white;
+    border: 1px solid black;
+    padding: .25em .5em;
+    cursor: pointer;
+}
+
+.endGame button:hover {
+    background-color:black ;
+    color: white;
+    border-color: white;
+}
+
+.endGame.view {
+display: flex;
+}
